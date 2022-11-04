@@ -12,15 +12,22 @@ html, body{
     background-color: white;
 }
 
+header{
+    top: 0;
+    position: sticky;
+}
 
 header h1{
     padding-left: 0.5em;
 }
 
 .navegacion_temas{
+    margin-bottom: 0.5em;
+}
+
+.navegacion_temas nav{
     text-align: center;
     background-color: rgb(84, 82, 82);
-    margin-bottom: 0.5em;
 }
 
 .navegacion_temas a{

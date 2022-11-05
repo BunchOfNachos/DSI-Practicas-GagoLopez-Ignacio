@@ -13,6 +13,17 @@ body {
     background-color: white;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: inherit;
+}
+
+a:hover {
+    background-color: gray;
+}
+
 header {
     top: 0;
     position: sticky;
@@ -32,15 +43,7 @@ header h1 {
 }
 
 .navegacion_temas a {
-    color: white;
-    text-decoration: none;
     padding: 0 2%;
-    font-weight: bold;
-    background-color: inherit;
-}
-
-.navegacion_temas a:hover {
-    background-color: gray;
 }
 
 .formulario {
@@ -54,6 +57,28 @@ header h1 {
     margin: 0.5em;
 }
 
+.flexbox-container {
+    display: flex;
+}
+
 .contenido {
     margin: 0.5em;
+}
+
+.navegacion-contenido {
+    background-color: rgb(162, 162, 162);
+    min-width: 25%;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    border-radius: 1em;
+}
+
+.navegacion-contenido ul {
+    background-color: rgb(162, 162, 162);
+}
+
+.navegacion-contenido li {
+    background-color: rgb(162, 162, 162);
+    list-style: none;
 }

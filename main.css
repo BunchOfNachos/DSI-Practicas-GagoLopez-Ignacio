@@ -1,36 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 
-html, body{
+html,
+body {
     margin: 0;
     padding: 0;
 }
 
-*{
+* {
     font-family: 'Roboto', sans-serif;
     color: #777;
     box-sizing: border-box;
     background-color: white;
 }
 
-header{
+header {
     top: 0;
     position: sticky;
 }
 
-header h1{
+header h1 {
     padding-left: 0.5em;
 }
 
-.navegacion_temas{
+.navegacion_temas {
     margin-bottom: 0.5em;
 }
 
-.navegacion_temas nav{
+.navegacion_temas nav {
     text-align: center;
     background-color: rgb(84, 82, 82);
 }
 
-.navegacion_temas a{
+.navegacion_temas a {
     color: white;
     text-decoration: none;
     padding: 0 2%;
@@ -38,19 +39,21 @@ header h1{
     background-color: inherit;
 }
 
-.navegacion_temas a:hover{
+.navegacion_temas a:hover {
     background-color: gray;
 }
 
-.formulario{
+.formulario {
     border-top: 2px solid black;
     border-bottom: 2px solid black;
 }
 
-.formulario h2, .formulario p, .formulario form{
+.formulario h2,
+.formulario p,
+.formulario form {
     margin: 0.5em;
 }
 
-.contenido{
+.contenido {
     margin: 0.5em;
 }

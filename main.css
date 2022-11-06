@@ -72,10 +72,13 @@ header h1 {
     border-color: black;
     border-width: 3px;
     border-radius: 1em;
+    margin-left: 2px;
+    margin-bottom: 3px;
 }
 
 .navegacion-contenido ul {
     background-color: rgb(162, 162, 162);
+    position: fixed;
 }
 
 .navegacion-contenido li {
